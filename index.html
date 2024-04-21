@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Blog</title>
+    <style>
+        body {
+            background-color: purple;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+        header a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            margin: 10px;
+        }
+        .caption {
+            text-align: center;
+            margin-top: -20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#stories">Stories</a>
+        <a href="#images">Images</a>
+        <a href="#about">About</a>
+    </header>
+
+    <div class="gallery">
+        <!-- Repeat this section for each image -->
+        <div>
+            <img src="path/to/image1.jpg" alt="Landscape 1">
+            <div class="caption">Caption for Landscape 1</div>
+        </div>
+        <!-- Add more images as needed -->
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Photography Blog. All rights reserved.</p>
+        <p>Contact: info@photographyblog.com</p>
+        <p>
+            <a href="https://www.facebook.com" target="_blank">Facebook</a> |
+            <a href="https://www.instagram.com" target="_blank">Instagram</a> |
+            <a href="https://www.twitter.com" target="_blank">Twitter</a>
+        </p>
+    </footer>
+</body>
+</html>
